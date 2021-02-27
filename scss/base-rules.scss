@@ -1,0 +1,16 @@
+@import './vars.scss';
+@import './mixins.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: ($root-font-size / 16px) * 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+}

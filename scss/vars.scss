@@ -1,0 +1,21 @@
+// Color palette
+$primary-color: #5360FE;
+$primary-dark-color: #04035F;
+$secondary-color: #04D7CD;
+$dark-color: #292930;
+$silver-color: #7D8797;
+$grey-color: #4F4F4F;
+$grey-light-color: #EEF7FE;
+$bg-color: #f1f1f1;
+
+// Text color palette
+$text-dark-color: $dark-color;
+$text-primary-color: $silver-color;
+$text-secondary-color: $primary-dark-color;
+$text-dimmed-color: $grey-color;
+$text-light-color: $grey-light-color;
+
+// Fonts
+$root-font-size: 16px;
+$primary-font: 'Verdana', sans-serif; // Put in this var value font that you will use
+$secondary-font: 'Arial', sans-serif; // Put in this var value font that you will use

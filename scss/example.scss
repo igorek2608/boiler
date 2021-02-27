@@ -1,0 +1,47 @@
+// This is example file, you can remove it
+@import "./vars.scss";
+@import "./mixins.scss";
+
+#waves-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.greetings {
+  @include heading(48px);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  z-index: 2;
+
+  &__subtitle {
+    display: block;
+    margin-top: rem(25px);
+    @include text(18px, $text-light-color);
+  }
+}
+
+.github-link {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  z-index: 5;
+  @include text(18px, $text-light-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: rem(10px);
+  opacity: 0.5;
+  transition: opacity 210ms linear;
+
+  &:hover {
+    opacity: 1;
+  }
+}
